@@ -14,7 +14,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/subfinder/subfinder/libsubfinder/helper"
+	"github.com/raajheshkannaa/subfinder/libsubfinder/helper"
 )
 
 // Struct containing json data we actually need

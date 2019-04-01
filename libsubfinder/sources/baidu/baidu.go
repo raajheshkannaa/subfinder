@@ -17,7 +17,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/subfinder/subfinder/libsubfinder/helper"
+	"github.com/raajheshkannaa/subfinder/libsubfinder/helper"
 )
 
 // all subdomains found

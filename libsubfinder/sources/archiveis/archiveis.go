@@ -13,7 +13,7 @@ import (
 	"io/ioutil"
 	"regexp"
 
-	"github.com/subfinder/subfinder/libsubfinder/helper"
+	"github.com/raajheshkannaa/subfinder/libsubfinder/helper"
 )
 
 // Contains all subdomains found

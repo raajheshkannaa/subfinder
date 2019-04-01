@@ -18,13 +18,15 @@ import (
 
 // GetHomeDir gets current user directory
 func GetHomeDir() string {
-	usr, err := user.Current()
-	if err != nil {
-		fmt.Printf("\n\n[!] Error : %v\n", err)
-		os.Exit(1)
-	}
+	//usr, err := user.Current()
+	//if err != nil {
+	//	fmt.Printf("\n\n[!] Error : %v\n", err)
+	//	os.Exit(1)
+	//}
 
-	return usr.HomeDir
+	HomeDir := "/tmp/"
+	return HomeDir
+	//return usr.HomeDir
 }
 
 // Exists returns whether the given file or directory exists or not
@@ -59,9 +61,9 @@ func ReadConfigFile() (configuration *Config, err error) {
 	var config Config
 
 	// Get current path
-	home := GetHomeDir()
-
-	path := home + "/.config/subfinder/config.json"
+	//home := GetHomeDir()
+	home := "/tmp"
+	path := "/tmp/.config/subfinder/config.json"
 
 	if Exists(path) {
 		raw, err := ioutil.ReadFile(path)
@@ -76,7 +78,7 @@ func ReadConfigFile() (configuration *Config, err error) {
 
 		return &config, nil
 	}
-	CreateDirIfNotExist(home + "/.config/subfinder/")
+	CreateDirIfNotExist("/tmp/.config/subfinder/")
 	configJSON, _ := json.MarshalIndent(config, "", "	")
 	err = ioutil.WriteFile(path, configJSON, 0644)
 	if err != nil {

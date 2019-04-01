@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/subfinder/subfinder/libsubfinder/helper"
+	"github.com/raajheshkannaa/subfinder/libsubfinder/helper"
 )
 
 // Structure of a single dictionary of output by crt.sh

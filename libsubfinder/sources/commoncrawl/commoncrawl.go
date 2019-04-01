@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/subfinder/subfinder/libsubfinder/helper"
+	"github.com/raajheshkannaa/subfinder/libsubfinder/helper"
 )
 
 // all subdomains found

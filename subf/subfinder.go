@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"reflect"
 	"strings"
-	"github.com/subfinder/subfinder/libsubfinder/engines/passive"
-	"github.com/subfinder/subfinder/libsubfinder/helper"
+	"github.com/raajheshkannaa/subfinder/libsubfinder/engines/passive"
+	"github.com/raajheshkannaa/subfinder/libsubfinder/helper"
 )
 
 // Subfinder represent a subdomain enumerator instance
@@ -45,8 +45,9 @@ func (s *Subfinder) parseConfig() {
 	setConfig := strings.Split(s.State.SetConfig, ",")
 
 	// Build Configuration path
-	home := helper.GetHomeDir()
-	path := home + "/.config/subfinder/config.json"
+	//home := helper.GetHomeDir()
+	home := "/tmp/"
+	path := "/tmp/.config/subfinder/config.json"
 
 	for _, config := range setConfig {
 		object := strings.Split(config, "=")

@@ -12,8 +12,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/subfinder/subfinder/libsubfinder/helper"
-	"github.com/subfinder/subfinder/subf"
+	"github.com/raajheshkannaa/subfinder/libsubfinder/helper"
+	"github.com/raajheshkannaa/subfinder/subf"
 )
 
 // ParseCmdLine ...  Parses command line arguments into a setting structure
@@ -55,7 +55,7 @@ func main() {
 
 	if !subfinder.State.Silent {
 		fmt.Println("===============================================")
-		fmt.Printf("%s%s-=Subfinder%s v1.1.3 github.com/subfinder/subfinder\n", helper.Info, helper.Cyan, helper.Reset)
+		fmt.Printf("%s%s-=Subfinder%s v1.1.3 github.com/raajheshkannaa/subfinder\n", helper.Info, helper.Cyan, helper.Reset)
 		fmt.Println("===============================================")
 	}
 

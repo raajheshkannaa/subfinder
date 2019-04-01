@@ -30,12 +30,12 @@
   name = "github.com/bogdanovich/dns_resolver"
 
 [[constraint]]
-  name = "github.com/subfinder/subfinder"
+  name = "github.com/raajheshkannaa/subfinder"
   version = "1.2.0"
 
 [[constraint]]
   branch = "master"
-  name = "github.com/subfinder/urlx"
+  name = "github.com/raajheshkannaa/urlx"
 
 [prune]
   go-tests = true

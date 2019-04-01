@@ -103,7 +103,7 @@ build_macos_amd64() {
 build_windows_amd64() {
     host_dep 'winvm'
 
-    DIR=c:/Users/codingo/gopath/src/github.com/subfinder/subfinder
+    DIR=c:/Users/codingo/gopath/src/github.com/raajheshkannaa/subfinder
 
     echo "@ Updating repo on Windows VM ..."
     ssh winvm "cd $DIR && git pull && go get ./..." > /dev/null
@@ -117,7 +117,7 @@ build_windows_amd64() {
 build_android_arm() {
     host_dep 'shield'
 
-    DIR=/data/data/com.termux/files/home/go/src/github.com/subfinder/subfinder
+    DIR=/data/data/com.termux/files/home/go/src/github.com/raajheshkannaa/subfinder
 
     echo "@ Updating repo on Android host ..."
     ssh -p 8022 root@shield "cd "$DIR" && rm -rf subfinder* && git pull && go get ./..."

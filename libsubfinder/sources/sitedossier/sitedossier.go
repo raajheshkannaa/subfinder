@@ -15,7 +15,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/subfinder/subfinder/libsubfinder/helper"
+	"github.com/raajheshkannaa/subfinder/libsubfinder/helper"
 )
 
 // Contains all subdomains found

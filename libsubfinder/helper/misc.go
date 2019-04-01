@@ -14,7 +14,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/subfinder/urlx"
+	"github.com/raajheshkannaa/urlx"
 )
 
 // Result is the Current result structure
