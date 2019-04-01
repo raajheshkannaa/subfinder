@@ -46,7 +46,7 @@ func (s *Subfinder) parseConfig() {
 
 	// Build Configuration path
 	//home := helper.GetHomeDir()
-	home := "/tmp/"
+	//home := "/tmp/"
 	path := "/tmp/.config/subfinder/config.json"
 
 	for _, config := range setConfig {
