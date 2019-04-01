@@ -62,7 +62,7 @@ func ReadConfigFile() (configuration *Config, err error) {
 
 	// Get current path
 	//home := GetHomeDir()
-	home := "/tmp"
+	//home := "/tmp"
 	path := "/tmp/.config/subfinder/config.json"
 
 	if Exists(path) {
