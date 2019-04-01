@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"os/user"
+//	"os/user"
 )
 
 // GetHomeDir gets current user directory
